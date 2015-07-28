@@ -1,0 +1,37 @@
+body, h1, h2, h3, h4, h5, h6 {font-family:"Tahoma",Helvetica, sans-serif;font-weight: 100}
+.uppercase{text-transform: uppercase}
+.bold{font-weight:600}
+.huge{font-size:49px;}
+.vertical-center{display:table}
+.vertical-center *{display:table-cell;vertical-align:middle}
+.nav-container{margin-bottom:50px}
+.navbar-default, .navbar-default .navbar-collapse {font-weight:bold;background-color:#0099ff}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{color:white;font-family:Noteworthy}
+.navbar-default .navbar-toggle .icon-bar{background-color:black}
+ul.nav a:hover, ul.nav a:focus, ul.nav a:active, .navbar-default a.navbar-brand:hover {color:#5d451f !important;transition:0.5s}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color:white}.main-container .background-image{background-repeat:no-repeat;background-image:url('../img/main.jpg');background-size:cover;background-position:top center;height:600px;}
+@media (max-width: 800px) {.background-image{height:400px}}
+.footer{font-size: 1.5em}
+.text-shadow{text-shadow: 1px 1px dimgray, -1px -1px dimgray}
+.black{color:black}
+.white{color:white}
+.blue-color{color:rgb(51,102,204);}
+.orange-color{color:rgb(255,153,51);}
+.background-grey{background-color:rgba(204,204,204,0.7);}
+.background-blue{background-color:rgb(51,102,204);}
+.background-orange{background-color:rgb(255,153,51);}
+.mainpage-steps{height:200px;width:200px}
+.navbar-brand{padding:0}
+.main-logo{height:55px}
+.navbar .navbar-nav.navbar-right{font-size:1.3em}
+.main-middle{height:30%}
+.main-middle-inner{padding:2% 10%;}
+.main-middle-inner span{font-size:24px;}
+.main-middle-inner img{width:100%;}
+@media (min-width: 992px) {}
+.main-bottom-title{color:#FBB03B;padding-top:10%}
+.social-icons{width:25px;height:auto}
+#joinMail{background:rgba(51,102,204,0.5);padding:2%;max-height:50%;margin-top:10%;}
+.description{padding:5% 0%;}
+@media (min-width: 768px) {.right{float:right;}}
+@media (max-width: 767px) {#joinMail{max-height:75%;}}
